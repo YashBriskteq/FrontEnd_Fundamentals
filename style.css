@@ -9,6 +9,7 @@ body {
 }
 
 h1 {
+  font-size: 26px;
   color: #023ead;
   text-transform: uppercase;
 }
@@ -105,7 +106,7 @@ a:hover {
 }
 
 .container {
-  width: 700px;
+  width: 1300px;
   margin-left: auto;
   margin-right: auto;
 }
@@ -121,7 +122,7 @@ button {
 }
 
 h1::first-letter {
-  font-size: large;
+  font-size: normal;
   margin-right: 5px;
 }
 /* 
@@ -143,4 +144,45 @@ h2::after {
   padding: 5px 10px;
   top: -10px;
   right: -25px;
+}
+
+.author-img {
+  float: left;
+  margin-bottom: 10px;
+}
+
+.author {
+  float: left;
+  padding-top: 10px;
+  padding-left: 10px;
+}
+
+h1 {
+  float: left;
+}
+
+nav {
+  float: right;
+}
+
+.clearfix::after {
+  clear: both;
+  content: "";
+  display: block;
+}
+
+article {
+  /* background-color: green; */
+  width: 900px;
+  float: left;
+}
+
+aside {
+  /* background-color: red; */
+  width: 300px;
+  float: right;
+}
+
+footer {
+  background-color: yellow;
 }

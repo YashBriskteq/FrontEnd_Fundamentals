@@ -15,7 +15,7 @@
   </head>
   <body>
     <div class="container">
-      <header class="main">
+      <header class="main clearfix">
         <h1>📘 The Code Magazine</h1>
         <nav>
           <a href="./blog.html" target="_blank">Blogs</a>
@@ -23,13 +23,20 @@
           <a href="./flexbox.html" target="_blank">Flexbox</a>
           <a href="./grid.html" target="_blank">CSS grid</a>
         </nav>
+        <div class="clear"></div>
       </header>
 
       <article>
         <header>
           <h2>The Basic Language of the Web: HTML</h2>
-          <img src="./img/laura-jones.jpg" alt="image" width="50" height="50" />
-          <p>
+          <img
+            src="./img/laura-jones.jpg"
+            class="author-img"
+            alt="image"
+            width="50"
+            height="50"
+          />
+          <p class="author">
             Posted by <strong>Laura Jones</strong> on Monday, June 21st 2027
           </p>
           <img
@@ -119,11 +126,11 @@
           </li>
         </ul>
       </aside>
-      <footer>
+      <!-- <footer>
         <p id="author">
           Copyright &copy; 2023 by <strong> Yash Pandya </strong>
         </p>
-      </footer>
+      </footer> -->
     </div>
   </body>
 </html>
