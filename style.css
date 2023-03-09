@@ -14,7 +14,7 @@ h1 {
 }
 
 h2 {
-  font-size: 40px;
+  font-size: 36px;
 }
 
 h3 {
@@ -118,4 +118,29 @@ button {
   position: absolute;
   bottom: 50px;
   right: 50px;
+}
+
+h1::first-letter {
+  font-size: large;
+  margin-right: 5px;
+}
+/* 
+h3 + p::first-line {
+  color: red;
+} */
+
+h2 {
+  position: relative;
+}
+
+h2::after {
+  content: "TOP";
+  background-color: yellow;
+  color: black;
+  font-size: 16px;
+  display: inline-block;
+  position: absolute;
+  padding: 5px 10px;
+  top: -10px;
+  right: -25px;
 }
