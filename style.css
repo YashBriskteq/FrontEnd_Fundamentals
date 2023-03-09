@@ -34,3 +34,34 @@ footer p {
   text-align: center;
   font-size: 16px;
 }
+
+#author {
+  font-weight: 600;
+}
+
+.related-author {
+  font-weight: bold;
+}
+
+.related {
+  list-style: none;
+}
+
+h1,
+h2,
+h3 {
+  color: #023ead;
+}
+
+.main {
+  background-color: #f7f7f7;
+}
+
+aside {
+  background-color: #f7f7f7;
+  border: 5px solid #023ead;
+}
+
+li:first-child {
+  font-weight: bold;
+}
