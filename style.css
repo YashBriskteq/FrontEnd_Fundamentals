@@ -1,5 +1,6 @@
 body {
   font-family: "Josefin Sans", sans-serif;
+  border-top: 10px solid #023ead;
 }
 
 h1 {
@@ -23,6 +24,7 @@ h4 {
 
 li {
   font-size: 20px;
+  margin: 10px;
 }
 
 p {
@@ -55,6 +57,7 @@ h3 {
 
 .main {
   background-color: #f7f7f7;
+  padding: 20px 40px;
 }
 
 aside {
@@ -63,5 +66,20 @@ aside {
 }
 
 li:first-child {
+  font-weight: bold;
+}
+
+a {
+  color: #023ead;
+  text-decoration: none;
+}
+
+a:visited {
+  color: #023ead;
+}
+
+a:hover {
+  text-decoration: underline;
+  color: orangered;
   font-weight: bold;
 }
